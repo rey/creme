@@ -54,5 +54,42 @@ body:before {
  *
  */
 body {
-  font-family: "Open Sans", "Helvetica", "Arial" sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #feffe0;
+}
+
+body.container {
+  padding-top: 60px;
+}
+body.container input {
+  border: none;
+  background-color: #feffe0;
+  display: inline;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+section#pls {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #222222;
+}
+section#pls h1 {
+  margin-bottom: 20px;
+}
+section#pls input {
+  border-bottom: 1px solid black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+section#twttr input {
+  border-bottom: 1px solid #c2c2c2;
+  font-family: sans-serif;
+  font-size: 20px;
 }
